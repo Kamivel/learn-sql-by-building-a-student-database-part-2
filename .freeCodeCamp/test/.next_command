@@ -77,3 +77,4 @@ find /bin/bash/
 ./student_info.sh
 ./student_info.sh
 ./student_info.sh
+pg_dump -cC --inserts -U freecodecamp students > save.sql
