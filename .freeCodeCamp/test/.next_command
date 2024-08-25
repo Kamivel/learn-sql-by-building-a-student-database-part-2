@@ -65,3 +65,12 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql -U postgres < students.sql
 touch student_info.sh
 chmod +x student_info.sh
+find
+find bash
+locate
+help
+find /bin
+find /bin/
+find /bin/bash
+find /bin/bash/dasd
+find /bin/bash/
