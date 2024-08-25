@@ -74,3 +74,4 @@ find /bin/
 find /bin/bash
 find /bin/bash/dasd
 find /bin/bash/
+./student_info.sh
