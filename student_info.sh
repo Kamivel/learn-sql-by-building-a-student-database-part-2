@@ -35,4 +35,4 @@ echo "$($PSQL "SELECT major FROM majors FULL JOIN students ON majors.major_id=st
 
 echo -e "\nList of unique courses, in reverse alphabetical order, that no student or 'Obie Hilpert' is taking:"
 echo "$($PSQL "SELECT DISTINCT(course) FROM students RIGHT JOIN majors USING(major_id) INNER JOIN majors_courses USING(major_id) INNER JOIN courses USING(course_id) WHERE student_id
-IS NULL OR (first_name='Obie' AND last_name='Hilpert') ORDER BY course DESC;")"
+IS NULL OR (first_name='Obie' AND last_name='Hilpert') ORDER BY course DESC")"
